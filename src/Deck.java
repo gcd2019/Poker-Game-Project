@@ -5,7 +5,7 @@ public class Deck {
     private final ArrayList<Card> cards;
 
     public Deck() {
-        cards = new ArrayList<Card>();
+        cards = new ArrayList<>();
         String[] suits = {"Hearts", "Diamonds", "Clubs", "Spades"};
         String[] ranks = {"Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King"};
         for (String suit : suits) {
